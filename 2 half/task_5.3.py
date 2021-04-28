@@ -1,7 +1,5 @@
-from collections import defaultdict
-
 k = int(input('Type quantity of enterprises: '))
-enterprises = defaultdict()
+enterprises = {}
 profit = {}
 
 
