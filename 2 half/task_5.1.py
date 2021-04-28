@@ -32,4 +32,3 @@ for key, value in enterprises.items():
         print(f'Enterprise {key} have earnings higher than average')
     if medprofit > value[4]:
         print(f'Enterprise {key} have earnings lower than average')
-    
