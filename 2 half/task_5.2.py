@@ -30,3 +30,14 @@ for key, value in enterprises.items():
     if medprofit > profit[t]:
         print(f'Enterprise {key} have earnings lower than average')
     t += 1
+    
+print('*' * 50)        
+from task_6 import show_size
+show_size(k)
+show_size(enterprises)
+show_size(summ)
+show_size(medprofit)
+show_size(i)
+show_size(key)
+show_size(value)
+show_size(t)
