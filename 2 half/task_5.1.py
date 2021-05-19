@@ -16,6 +16,7 @@ for i in range(1, k + 1):
                                 enterprises[name][3])
 
 #print(enterprises)
+print('*' * 50) 
 
 summ = 0
 
@@ -32,14 +33,9 @@ for key, value in enterprises.items():
         print(f'Enterprise {key} have earnings higher than average')
     if medprofit > value[4]:
         print(f'Enterprise {key} have earnings lower than average')
-        
-print('*' * 50)        
+               
 from task_6 import show_size
-show_size(k)
-show_size(enterprises)
-show_size(summ)
-show_size(medprofit)
-show_size(i)
-show_size(key)
-show_size(value)
+loc = locals().copy()
+#print(loc)
+show_size(loc)
 

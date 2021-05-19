@@ -13,6 +13,7 @@ for i in range(k):
     profit[i] = enterprises[name][0] + enterprises[name][1] + enterprises[name][2] +enterprises[name][3]
 
 summ = 0
+print('*' * 50) 
 
 for i in range(k):
     summ += profit[i]
@@ -31,11 +32,5 @@ for key, value in enterprises.items():
     
 print('*' * 50)        
 from task_6 import show_size
-show_size(k)
-show_size(enterprises)
-show_size(summ)
-show_size(medprofit)
-show_size(i)
-show_size(key)
-show_size(value)
-show_size(t)
+loc = locals().copy()
+show_size(loc)
