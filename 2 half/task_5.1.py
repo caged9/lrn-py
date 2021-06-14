@@ -34,8 +34,10 @@ for key, value in enterprises.items():
     if medprofit > value[4]:
         print(f'Enterprise {key} have earnings lower than average')
                
-from task_6 import show_size
+from task_6 import sum_all_1
 loc = locals().copy()
-#print(loc)
-show_size(loc)
+# print(loc)
+print("Memory used: ", sum_all_1(loc))
 
+from task_6 import show_size_2
+show_size_2(loc)
